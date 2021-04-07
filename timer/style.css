@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bg{
+    
+    background-image: url('https://images.unsplash.com/photo-1535882686-b1332af6f51e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y29sb3JmdWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+  }
+.timeclock{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    padding-top: 29px;
+    flex-direction: column;
+    margin: 12px;
+}
+.timeclock h1{
+    color: antiquewhite;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.2rem;
+}
+#timer{
+    color: antiquewhite;
+    padding-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+}
+#todaydate{
+    color: antiquewhite;
+    padding: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2rem;
+
+}
+.timeclock img{
+    height: 200px;
+}
